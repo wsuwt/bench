@@ -6,13 +6,13 @@
     <title>Document</title>
   </head>
   <body>
-    <script type="module" src="">
-      import '@lion/ui/define/lion-button.js';
-      import * as bench from '/bench.js';
+    <script type="module">
+      import * as bench from "/bench.js";
+      import "./node_modules/@lion/ui/exports/define/lion-button.js";
 
       bench.start();
       for (let i = 0; i < 100; i++) {
-        document.body.innerHTML += '<lion-button>Default</lion-button>'
+        document.body.innerHTML += "<lion-button>Default</lion-button>";
       }
       bench.stop();
     </script>
