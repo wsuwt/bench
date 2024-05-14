@@ -1,0 +1,20 @@
+{
+  "name": "bench",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tachometer": "^0.7.0",
+    "@lion/ui": "^0.7.2",
+    "@ui5/webcomponents": "^1.24.2"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
