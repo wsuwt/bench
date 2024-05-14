@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Polymer/tachometer/master/config.schema.json",
+  "root": "../..",
+  "sampleSize": 100,
+  "timeout": 3,
+  "autoSampleConditions": ["0%", "1%"],
+  "benchmarks": [
+    {
+      "name": "FAST",
+      "url": "fast.html",
+      "browser": {
+        "name": "chrome",
+        "headless": true
+      }
+    },
+    {
+      "name": "LION",
+      "url": "lion.html",
+      "browser": {
+        "name": "chrome",
+        "headless": true
+      }
+    },
+    {
+      "name": "UI5",
+      "url": "ui5.html",
+      "browser": {
+        "name": "chrome",
+        "headless": true
+      }
+    }
+  ]
+}

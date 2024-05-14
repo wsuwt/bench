@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "bench": "npx tachometer lion.html ui5.html fast.html index.html"
+    "bench": "tach --config tachometer.json"
   },
   "keywords": [],
   "author": "",
