@@ -8,7 +8,13 @@
   <body>
     <script type="module" src="">
       import "@ui5/webcomponents/dist/Button.js";
+      import * as bench from '/bench.js';
+
+      bench.start();
+      for (let i = 0; i < 100; i++) {
+        document.body.innerHTML += '<ui5-button>Default</ui5-button>'
+      }
+      bench.stop();
     </script>
-    <ui5-button>Default</ui5-button>
   </body>
 </html>

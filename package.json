@@ -3,18 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bench": "npx tachometer lion.html ui5.html fast.html index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "tachometer": "^0.7.0",
     "@lion/ui": "^0.7.2",
-    "@ui5/webcomponents": "^1.24.2"
-  },
-  "devDependencies": {
-    "vite": "^5.2.11"
+    "@microsoft/fast-foundation": "^2.49.6",
+    "@ui5/webcomponents": "^1.24.2",
+    "tachometer": "^0.7.0"
   }
 }
