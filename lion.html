@@ -8,12 +8,13 @@
   <body>
     <script type="module">
       import * as bench from "/bench.js";
-      import "./node_modules/@lion/ui/exports/define/lion-button.js";
-
       bench.start();
+
+      import "./node_modules/@lion/ui/exports/define/lion-button.js";
       for (let i = 0; i < 100; i++) {
         document.body.innerHTML += "<lion-button>Default</lion-button>";
       }
+      
       bench.stop();
     </script>
   </body>

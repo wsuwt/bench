@@ -8,18 +8,17 @@
   <body>
     <script type="module">
       import * as bench from "/bench.js";
+      bench.start();
 
       import {
         provideFASTDesignSystem,
         fastButton,
       } from "@microsoft/fast-components";
-
       provideFASTDesignSystem().register(fastButton());
-
-      bench.start();
       for (let i = 0; i < 100; i++) {
         document.body.innerHTML += "<fast-button>Default</fast-button>";
       }
+      
       bench.stop();
     </script>
   </body>
