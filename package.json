@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "bench": "tach --config tachometer.json"
+    "bench": "tach --config tachometer.config.json"
   },
   "keywords": [],
   "author": "",
