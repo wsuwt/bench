@@ -12,7 +12,7 @@
       
       import "@ui5/webcomponents/dist/Button.js";
       for (let i = 0; i < 100; i++) {
-        document.body.innerHTML += '<ui5-button>Default</ui5-button>'
+        document.body.append(document.createElement('ui5-button'));
       }
       
       bench.stop();

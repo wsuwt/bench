@@ -12,7 +12,7 @@
 
       import "./node_modules/@lion/ui/exports/define/lion-button.js";
       for (let i = 0; i < 100; i++) {
-        document.body.innerHTML += "<lion-button>Default</lion-button>";
+        document.body.append(document.createElement('lion-button'));
       }
       
       bench.stop();

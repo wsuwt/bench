@@ -16,7 +16,7 @@
       } from "@microsoft/fast-components";
       provideFASTDesignSystem().register(fastButton());
       for (let i = 0; i < 100; i++) {
-        document.body.innerHTML += "<fast-button>Default</fast-button>";
+        document.body.append(document.createElement('fast-button'));
       }
       
       bench.stop();
